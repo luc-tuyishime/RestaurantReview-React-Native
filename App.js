@@ -7,15 +7,8 @@ const AppNavigator = createStackNavigator({
   Home: { screen: RestaurantList },
 });
 
+console.disableYellowBox = true;
+
 const App = createAppContainer(AppNavigator);
 
 export default App;
-
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     backgroundColor: '#fff',
-//     alignItems: 'center',
-//     justifyContent: 'center',
-//   },
-// });
